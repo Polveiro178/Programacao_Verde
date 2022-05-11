@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 22;
+    font-size: 22px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -19,4 +19,68 @@ button
     border-style: outset;
     border-radius: 10px;
     text-decoration: solid;
+}
+
+li
+{
+    list-style: none; 
+} 
+
+#container {
+
+    width: 290px;
+    text-align: center;
+    height:auto;
+    margin: 4px auto;  
+
+    } 
+
+#calculadora {
+
+    width: 234px;
+    height: 230px;
+    margin: 0px auto;
+    padding: 2px; 
+    background-color: rgb(68, 68, 68);
+} 
+
+.input-valor{
+    margin: 8px;
+    width: 95%; 
+    height: 30px;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: right;
+    color: rgb(7, 7, 7);
+    padding: 4px;
+    background-color: rgb(22, 15, 22);
+    box-shadow: inset -1px -1px 4px -1px rgb(43, 32, 32) ;
+} 
+
+.key li{
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    color: rgb(0, 20, 37);
+    background-color: antiquewhite;
+    cursor: pointer;
+    float: left;
+    margin: 0px 3px 1px 0px;
+    line-height: 30px;
+    box-shadow: 0px 3px 1px 0px;
+} 
+
+.key li:hover{
+    background-color: rgb(82, 79, 75);
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+
+} 
+
+.key li:active{
+    box-shadow: 0px 1px 1px 0px #fff;
+}
+
+.verificar{
+    width: 93.4% !important;
 }
